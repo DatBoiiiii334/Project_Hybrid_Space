@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2032514050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8560846917807832423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentFlags: 84
+  attachmentOffset: {fileID: 0}
+  catchingSpeedThreshold: -1
+  releaseVelocityStyle: 3
+  releaseVelocityTimeOffset: -0.011
+  scaleReleaseVelocity: 1.1
+  restoreOriginalParent: 0
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  onPickUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onDetachFromHand:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  snapAttachEaseInCompleted: 0
+  interactable: {fileID: 0}
+--- !u!1001 &6815113018743892382
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: releaseVelocityStyle
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746437369, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_Name
+      value: maggot (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746437369, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746437369, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.077
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.713
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746925785, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746534950, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: activateActionSetOnAttach
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746534950, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: setRangeOfMotionOnPickup
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746534950, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: handFollowTransformPosition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746534950, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: handFollowTransformRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907664841746534950, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+        type: 3}
+      propertyPath: useHandObjectAttachmentPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785479777, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9, type: 3}
+      propertyPath: SpawnObject.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785479777, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9, type: 3}
+      propertyPath: AchievmentImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ef3106c18113ab6449cbd2796ad22fc3,
+        type: 3}
+    - target: {fileID: 1785479777, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9, type: 3}
+      propertyPath: SpawnObject.Array.data[0]
+      value: 
+      objectReference: {fileID: 8664464062492626520, guid: b3c6e9d4044c6fb42bb2757244fe39d6,
+        type: 3}
+    - target: {fileID: 1785479777, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9, type: 3}
+      propertyPath: SpawnAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785479777, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9, type: 3}
+      propertyPath: Spawns
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9, type: 3}
+--- !u!1 &8560846917807832423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2907664841746437369, guid: 2c6ab41a85f907e4ba5c9f7c3e386fd9,
+    type: 3}
+  m_PrefabInstance: {fileID: 6815113018743892382}
+  m_PrefabAsset: {fileID: 0}
